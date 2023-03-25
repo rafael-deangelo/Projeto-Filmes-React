@@ -1,8 +1,13 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Filme from './components/Filme/index';
+import Menu from './components/Menu/index';
+import Título from './components/Título/index';
+import Footer from './components/Footer/index';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
