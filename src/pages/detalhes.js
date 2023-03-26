@@ -67,52 +67,53 @@ export default function Detalhes() {
                     <p class="lead">Detalhes sobre o filme</p>
                 </div>
             </div>
-                <p class="lead">Filme: {filme}</p>
+                <p class="lead"><strong>Filme:</strong> {filme}</p>
                 {(() => {
                     if (filme === 'O Segredo dos Animais') {
                         return (
                             <div>
-                                <p class="lead">Sinopse: {filmes[0].descricao}</p>
-                                <p class="lead">Gênero: {filmes[0].genero}</p>
-                                <p class="lead">Ano: {filmes[0].ano}</p>
-                                <p class="lead">Nota: {filmes[0].nota}</p>
+                                <p class="lead"><strong>Sinopse:</strong> {filmes[0].descricao}</p>
+                                <p class="lead"><strong>Gênero:</strong> {filmes[0].genero}</p>
+                                <p class="lead"><strong>Ano:</strong> {filmes[0].ano}</p>
+                                <p class="lead"><strong>Nota:</strong> {filmes[0].nota}</p>
                             </div>
                         )
                     } else if (filme === 'O Invisível') {
                         return (
                             <div>
-                                <p class="lead">Sinopse: {filmes[1].descricao}</p>
-                                <p class="lead">Gênero: {filmes[1].genero}</p>
-                                <p class="lead">Ano: {filmes[1].ano}</p>
-                                <p class="lead">Nota: {filmes[1].nota}</p>
+                                <p class="lead"><strong>Sinopse:</strong> {filmes[1].descricao}</p>
+                                <p class="lead"><strong>Gênero:</strong> {filmes[1].genero}</p>
+                                <p class="lead"><strong>Ano:</strong> {filmes[1].ano}</p>
+                                <p class="lead"><strong>Nota:</strong> {filmes[1].nota}</p>
                             </div>
                         )
                     } else if (filme === 'Harry Potter e a Pedra Filosofal') {
                         return (
                             <div>
-                                <p>Sinopse: {filmes[2].descricao}</p>
-                                <p>Gênero: {filmes[2].genero}</p>
-                                <p>Ano: {filmes[2].ano}</p>
-                                <p>Nota: {filmes[2].nota}</p>
+                                <p class="lead"><strong>Sinopse:</strong> {filmes[2].descricao}</p>
+                                <p class="lead"><strong>Gênero:</strong> {filmes[2].genero}</p>
+                                <p class="lead"><strong>Ano:</strong> {filmes[2].ano}</p>
+                                <p class="lead"><strong>Nota:</strong> {filmes[2].nota}</p>
                             </div>
                         )
                     } else if (filme === 'Harry Potter e a Câmara Secreta') {
                         return (
                             <div>
-                                <p>Sinopse: {filmes[3].descricao}</p>
-                                <p>Gênero: {filmes[3].genero}</p>
-                                <p>Ano: {filmes[3].ano}</p>
-                                <p>Nota: {filmes[3].nota}</p>
+                                <p class="lead"><strong>Sinopse:</strong> {filmes[3].descricao}</p>
+                                <p class="lead"><strong>Gênero:</strong> {filmes[3].genero}</p>
+                                <p class="lead"><strong>Ano:</strong> {filmes[3].ano}</p>
+                                <p class="lead"><strong>Nota:</strong> {filmes[3].nota}</p>
                             </div>
                         )
                     } else if (filme === 'Harry Potter e o Prisioneiro de Azkaban') {
                         return (
                             <div>
-                                <p>Sinopse: {filmes[4].descricao}</p>
-                                <p>Gênero: {filmes[4].genero}</p>
-                                <p>Ano: {filmes[4].ano}</p>
-                                <p>Nota: {filmes[4].nota}</p>
+                                <p class="lead"><strong>Sinopse:</strong> {filmes[4].descricao}</p>
+                                <p class="lead"><strong>Gênero:</strong> {filmes[4].genero}</p>
+                                <p class="lead"><strong>Ano:</strong> {filmes[4].ano}</p>
+                                <p class="lead"><strong>Nota:</strong> {filmes[4].nota}</p>
                             </div>
+                            
                         )
                     }
                 })()}

@@ -4,7 +4,7 @@ import Planos from './pages/planos';
 import Sobre from './pages/sobre';
 import Detalhes from './pages/detalhes';
 import Footer from './components/Footer/index';
-import { ErrorPage } from './components/ErrorPage';
+import { NotFound } from './pages/NotFound';
 
 
 export default function App() {
@@ -34,8 +34,9 @@ export default function App() {
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/planos' element={<Planos />} />
           <Route path='/detalhes/:filme' element={<Detalhes/>} />
-          <Route path='*' element={<ErrorPage />}/> 
+          <Route path='*' element={<NotFound />} headerHidden={true} /> 
         </Routes>
+        
         <Footer />
       </Router>
   )
